@@ -8,3 +8,7 @@ Verrà caricato solo materiale ricavato dalle lezioni e/o di dominio pubblico in
 Tutti i file sono da utilizzare/visionare con il software [Obsidian](https://obsidian.md)
 
 la cartella .obsidian contiene tutti i file di utilità all'applicazione.
+
+---
+
+[[Guida ai Plugin]] per vedere tutti i plugin che si trovano nella cartella .obsidian, con link ad ognuno di essi (WIP)
