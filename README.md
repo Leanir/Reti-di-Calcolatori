@@ -4,4 +4,4 @@ Questa repository serve a gestire e condividere informazioni sul corso di Reti d
 Verrà caricato solo materiale ricavato dalle lezioni e/o di dominio pubblico.
 Si incoraggia l'inserimento di citazioni e/o fonti se si prende un certo fatto da una fonte esterna.
 
-Tutti i file sono da utilizzare/visionare con il software Obsidian
+Tutti i file sono da utilizzare/visionare con il software [Obsidian](https://obsidian.md)
