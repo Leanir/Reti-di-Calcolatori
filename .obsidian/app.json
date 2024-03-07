@@ -1,0 +1,9 @@
+{
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_smistamento",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./_attachments"
+}
