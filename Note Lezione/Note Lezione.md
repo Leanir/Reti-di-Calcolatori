@@ -5,8 +5,8 @@ database-plugin: basic
 ---
 
 ```yaml:dbfolder
-name: new database
-description: new description
+name: Note Lezione
+description: Tutte le note prese durante la lezione e rivisitate in seguito
 columns:
   __file__:
     key: __file__
@@ -70,9 +70,31 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+  Argomenti:
+    input: tags
+    accessorKey: Argomenti
+    key: Argomenti
+    id: Argomenti
+    label: Argomenti
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 402
+    options:
+      - { label: "C", value: "C", color: "hsl(140, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
 config:
   remove_field_when_delete_column: true
-  cell_size: normal
+  cell_size: compact
   sticky_first_column: true
   group_folder_column: 
   remove_empty_folders: false
@@ -89,7 +111,7 @@ config:
   source_destination_path: /
   row_templates_folder: _templates
   current_row_template: 
-  pagination_size: 10
+  pagination_size: 30
   font_size: 16
   enable_js_formulas: true
   formula_folder_path: _js_formulas

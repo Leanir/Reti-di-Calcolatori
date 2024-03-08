@@ -1,11 +1,17 @@
 ---
 Data: 2024-03-08
 Docente: "[[Luca Guarnera]]"
+Argomenti:
+  - C
 ---
 Data Lezione: `INPUT[datePicker:Data]`
 Docente: `VIEW[{Docente}][link]`
 
 ---
+
+![[HelloWorld.c]]
+
+
 
 # Intro C
 
@@ -15,7 +21,7 @@ Docente: `VIEW[{Docente}][link]`
 
 printf("valore di a è %d", a);
 
-scanf("%d", &a); -> passa riferimento a variabile per scrivere da input
+scanf("%d", &a); // passa riferimento a variabile per scrivere da input
 
 if () { } else { }
 
