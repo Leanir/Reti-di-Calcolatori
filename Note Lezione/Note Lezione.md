@@ -83,6 +83,8 @@ columns:
     width: 402
     options:
       - { label: "C", value: "C", color: "hsl(140, 95%, 90%)"}
+      - { label: "File Binari", value: "File Binari", color: "hsl(84, 95%, 90%)"}
+      - { label: "Gestione File", value: "Gestione File", color: "hsl(230, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -110,7 +112,7 @@ config:
   source_form_result: 
   source_destination_path: /
   row_templates_folder: _templates
-  current_row_template: 
+  current_row_template: _templates/t_Lezione.md
   pagination_size: 30
   font_size: 16
   enable_js_formulas: true
