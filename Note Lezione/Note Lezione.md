@@ -85,6 +85,7 @@ columns:
       - { label: "C", value: "C", color: "hsl(140, 95%, 90%)"}
       - { label: "File Binari", value: "File Binari", color: "hsl(84, 95%, 90%)"}
       - { label: "Gestione File", value: "Gestione File", color: "hsl(230, 95%, 90%)"}
+      - { label: "Virtualizzazione", value: "Virtualizzazione", color: "hsl(186, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
