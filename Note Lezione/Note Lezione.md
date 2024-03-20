@@ -86,6 +86,11 @@ columns:
       - { label: "File Binari", value: "File Binari", color: "hsl(84, 95%, 90%)"}
       - { label: "Gestione File", value: "Gestione File", color: "hsl(230, 95%, 90%)"}
       - { label: "Virtualizzazione", value: "Virtualizzazione", color: "hsl(186, 95%, 90%)"}
+      - { label: "schede reti", value: "schede reti", color: "hsl(97, 95%, 90%)"}
+      - { label: "Clonazione macchine", value: "Clonazione macchine", color: "hsl(116, 95%, 90%)"}
+      - { label: "scp", value: "scp", color: "hsl(35, 95%, 90%)"}
+      - { label: "Socket", value: "Socket", color: "hsl(1, 95%, 90%)"}
+      - { label: "ssh", value: "ssh", color: "hsl(306, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
