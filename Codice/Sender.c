@@ -14,8 +14,7 @@
 
 int main(int argc, char **argv)
 {
-
-    int sockfd;                   // lo restituiamo alla fine
+    int sockfd;
     struct sockaddr_in dest_addr; // viene da <arpa/inet.h>
     char buffer[100];
 
