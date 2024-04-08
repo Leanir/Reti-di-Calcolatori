@@ -7,6 +7,7 @@ Argomenti:
   - scp
   - Socket
   - ssh
+  - UDP
 ---
 
 | **Data** | `INPUT[datePicker:Data]` |
@@ -18,10 +19,9 @@ la scheda 1 non ci interesserà mai
 la numero 2 è la nostra scheda di rete
 `<..., UP, LOWER_UP>` significa che la scheda è attiva
 
-inet -> indirizzo IPv4 della scheda 
+inet -> indirizzo IPv4 della scheda
 inet6 -> IPv6
-	molto simile per contenuto al MAC address
-	 - [x] molto importante⏫ settare mac address per evitare conflitti tra più macchine
+molto simile per contenuto al MAC address - [x] molto importante⏫ settare mac address per evitare conflitti tra più macchine
 
 virtual box non consente di fare copia-incolla, a questo problema ovvieremo tra un po'
 
@@ -35,43 +35,42 @@ modalità esperta
 - clone collegato -> 100 macchine da 10 GB = poco pi+ di 10 GB
 
 criteri indirizzi mac
+
 - includi solo con NAT -> problema del mac ripetuto
 - genera nuovi indirizzi per ogni scheda di rete -> this!
 
 impostazioni macchina clonata:
-- scheda 1 : rete interna
-- scheda 2 : scheda solo host
-	- permette di trasferire script da macchina host a virtuale (prendi IP da questa)
-	- per ora non tocchiamo roba avanzata
-`ip link set dev enp0s8 up`
 
+- scheda 1 : rete interna
+- scheda 2 : scheda solo host - permette di trasferire script da macchina host a virtuale (prendi IP da questa) - per ora non tocchiamo roba avanzata
+  `ip link set dev enp0s8 up`
 
 ---
 
 ## terminal
 
-pwd comando che restituisce path testuale 
+pwd comando che restituisce path testuale
 
-scp \[da] \[a]  permette di trasferire file da una macchina all'altra
-`user@IP:PATH/*.c` 
+scp \[da] \[a] permette di trasferire file da una macchina all'altra
+`user@IP:PATH/*.c`
 
 ![[Pasted image 20240320114353.png]]
 
 ---
 
-# Parte teorica: Socket!
+# Parte teorica: Socket
 
-astrazione fisica 
+astrazione fisica
 
-concetti utili: 
+concetti utili:
+
 - UDP
 - TCP
 - categoria
-	- IPv4
-	- IPv6
+  - IPv4
+  - IPv6
 
 ## Connessioni UDP
-
 
 | Server     | Client     | Dettagli                                                                                                                                                                                                                                                                               |
 | ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -80,6 +79,7 @@ concetti utili:
 | recvfrom() | sendto()   | client manda pacchetto e server riceve, non hanno una logica specifica, è in base al caso d'uso. è la parte importante per l'esame                                                                                                                                                     |
 | sendto()   | recvfrom() | UDP manda una risposta, ma non è obbligato a farlo                                                                                                                                                                                                                                     |
 | close()    | close()    | entrambi chiuderanno la socket                                                                                                                                                                                                                                                         |
+
 ### versione base connessione UDP
 
 | Receiver   | Sender   |
@@ -88,8 +88,8 @@ concetti utili:
 | bind()     |          |
 | recvfrom() | sendto() |
 | close()    | close()  |
-## definizione socket address
 
+## definizione socket address
 
 ```C
 struct sockaddr{
@@ -103,7 +103,6 @@ occupa 16 Byte
 
 ## struct che useremo per IPv4
 
-
 ```C
 typedef struct sockaddr_in{
 	short int           sin_family;
@@ -113,9 +112,9 @@ typedef struct sockaddr_in{
 	// * per distinguere i campi del pacchetto (evitare confusione ed errore)
 } AF_INET;
 
-// progettata per funzionare con ogni protocollo 
+// progettata per funzionare con ogni protocollo
 // per evitare problemi di ogni tipo
-struct in_addr{ 
+struct in_addr{
 	u_int32_t s_addr;
 };
 ```
@@ -126,12 +125,12 @@ struct in_addr{
 typedef struct sockaddr_in6{
 	u_int16_t           sin6_family;
 	u_int16_t           sin6_port;
-	u_int32_t           ...; 
+	u_int32_t           ...;
 	...
 	...
 } AF_INET6;
 
-struct ...{ 
+struct ...{
 	...
 };
 ```
@@ -141,12 +140,10 @@ struct ...{
 pton presentation to network
 ntop network to presentation
 
-
 ```C
 inet_ntop(..., ..., ..., ...);
 inet_pton(..., ..., ...);
 ```
-
 
 - [ ] vedi le slide per concludere tutto
 
@@ -158,6 +155,7 @@ tipo DGRAM UDP
 STREAM TCP
 
 protocollo
+
 - 0 si adatta al secondo parametro
 - udp
 - tcp
@@ -169,5 +167,3 @@ protocollo
 (socket, puntatore ad address, lunghezza address)
 
 ## funzioni sendto recvfrom
-
-

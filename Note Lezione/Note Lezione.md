@@ -1,7 +1,5 @@
 ---
-
 database-plugin: basic
-
 ---
 
 ```yaml:dbfolder
@@ -91,6 +89,35 @@ columns:
       - { label: "scp", value: "scp", color: "hsl(35, 95%, 90%)"}
       - { label: "Socket", value: "Socket", color: "hsl(1, 95%, 90%)"}
       - { label: "ssh", value: "ssh", color: "hsl(306, 95%, 90%)"}
+      - { label: "UDP", value: "UDP", color: "hsl(104, 95%, 90%)"}
+      - { label: "UD", value: "UD", color: "hsl(232, 95%, 90%)"}
+      - { label: "sendto", value: "sendto", color: "hsl(299, 95%, 90%)"}
+      - { label: "recvfrom", value: "recvfrom", color: "hsl(192, 95%, 90%)"}
+      - { label: "bind", value: "bind", color: "hsl(49, 95%, 90%)"}
+      - { label: "client - server", value: "client - server", color: "hsl(243, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      option_source: manual
+      content_alignment: text-align-left
+      content_vertical_alignment: align-middle
+      wrap_content: true
+  codice:
+    input: text
+    accessorKey: codice
+    key: codice
+    id: codice
+    label: codice
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
     config:
       enable_media_view: true
       link_alias_enabled: true
