@@ -8,6 +8,7 @@ Argomenti:
   - Socket
   - ssh
   - UDP
+codice: "[[HelloWorld.c]]"
 ---
 
 | **Data** | `INPUT[datePicker:Data]` |

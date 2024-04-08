@@ -78,7 +78,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 402
+    width: 499.79998779296875
     options:
       - { label: "C", value: "C", color: "hsl(140, 95%, 90%)"}
       - { label: "File Binari", value: "File Binari", color: "hsl(84, 95%, 90%)"}
