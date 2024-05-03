@@ -98,6 +98,7 @@ columns:
       - { label: "receive", value: "receive", color: "hsl(105, 95%, 90%)"}
       - { label: "IPv4", value: "IPv4", color: "hsl(246, 95%, 90%)"}
       - { label: "IPv6", value: "IPv6", color: "hsl(108, 95%, 90%)"}
+      - { label: "TCP", value: "TCP", color: "hsl(265, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
