@@ -37,8 +37,10 @@ columns:
     position: 100
     skipPersist: false
     isHidden: false
-    sortIndex: -1
+    sortIndex: 1
     width: 86
+    isSorted: true
+    isSortedDesc: false
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -101,6 +103,10 @@ columns:
       - { label: "TCP", value: "TCP", color: "hsl(265, 95%, 90%)"}
       - { label: "Rete interna", value: "Rete interna", color: "hsl(34, 95%, 90%)"}
       - { label: "Smistamento IP", value: "Smistamento IP", color: "hsl(50, 95%, 90%)"}
+      - { label: "Esercizi lan", value: "Esercizi lan", color: "hsl(124, 95%, 90%)"}
+      - { label: "script batch", value: "script batch", color: "hsl(116, 95%, 90%)"}
+      - { label: "Esercitazione", value: "Esercitazione", color: "hsl(110, 95%, 90%)"}
+      - { label: "Esame", value: "Esame", color: "hsl(76, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -148,7 +154,7 @@ config:
   show_metadata_inlinks: false
   show_metadata_outlinks: false
   show_metadata_tags: false
-  source_data: current_folder
+  source_data: current_folder_without_subfolders
   source_form_result: 
   source_destination_path: /
   row_templates_folder: _templates
