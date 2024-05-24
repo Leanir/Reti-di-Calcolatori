@@ -11,4 +11,8 @@ la cartella .obsidian contiene tutti i file di utilità all'applicazione.
 
 ---
 
-[[Guida ai Plugin]] per vedere tutti i plugin che si trovano nella cartella .obsidian, con link ad ognuno di essi (WIP)
+Vedere il file [[Guida ai Plugin]] per vedere tutti i plugin che si trovano nella cartella .obsidian
+Ogni credito per i plugin va ai creatori originali. Più info sui plugin di supporto possono essere trovate nell'apposita sezione "Community Plugins" all'interno dell'applicazione Obsidian.
+
+TO-DO:
+- [ ] aggiungere i link originali dei singoli plugin in [[Guida ai Plugin]] per un accesso diretto
