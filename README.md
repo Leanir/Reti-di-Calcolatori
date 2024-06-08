@@ -1,18 +1,23 @@
-# Reti-di-Calcolatori
-Questa repository serve a gestire e condividere informazioni sul corso di Reti di Calcolatori tenuto al DMI nel corso di laurea L-31 Informatica durante l'a.a. 2023/2024 e punta alla collaborazione, sintetica ma quanto più chiara e completa, tra studenti interessati.
-Dopo questo periodo, non verranno aggiunti ulteriori appunti.
+# Reti di Calcolatori - DMI - Informatica L-31 (a.a. 2023/2024)
 
-Tutti possono contribuire aprendo degli issues per correzioni o informazioni mancanti, e tutto ciò che permette di fare Git che possa essere utile alla causa.
-Verrà caricato solo materiale ricavato dalle lezioni e/o di dominio pubblico indicando, se necessario, la fonte.
+Questa repository è stata creata per gestire e condividere informazioni sul corso di Reti di Calcolatori tenuto al Dipartimento di Matematica e Informatica (DMI) durante l'anno accademico 2023/2024. L'obiettivo è quello di promuovere una collaborazione chiara, sintetica e completa tra gli studenti interessati.
 
-Tutti i file sono da utilizzare/visionare con il software [Obsidian](https://obsidian.md)
+## Come contribuire
+
+Tutti sono invitati a contribuire! Se notate errori o mancanze, sentitevi libero di aprire un issue o creare una nuova branch. Qualsiasi contributo può essere utile alla causa, sfruttando tutte le funzionalità offerte da Git. (git good)
+
+## Materiale del corso
+
+Verrà caricato solo materiale derivato dalle lezioni o di dominio pubblico. Quando necessario, verrà indicata la fonte del materiale.
+
+## Note
+
+Dopo l'a.a. 2023/2024, non verranno aggiunti ulteriori appunti a questa repository.
+
+È fortemente consigliato utilizzare/visionare i file con il software [Obsidian](https://obsidian.md).
 
 la cartella .obsidian contiene tutti i file di utilità all'applicazione.
 
 ---
 
-Vedere il file [[Guida ai Plugin]] per vedere tutti i plugin che si trovano nella cartella .obsidian
 Ogni credito per i plugin va ai creatori originali. Più info sui plugin di supporto possono essere trovate nell'apposita sezione "Community Plugins" all'interno dell'applicazione Obsidian.
-
-TO-DO:
-- [ ] aggiungere i link originali dei singoli plugin in [[Guida ai Plugin]] per un accesso diretto

@@ -76,6 +76,6 @@ int recvfrom(
 )
 ```
 
-codice::[[Sender.c]]
+codice:: [[Sender.c]]
 
 Su teams si trovano già gli esercizi di

@@ -1,17 +1,16 @@
 ---
 Data: 2024-03-08
-Docente: "[[Luca Guarnera]]"
+Docente: "[[Docenti#^guarnera-sheet|Luca Guarnera]]"
 Argomenti:
   - C
 ---
+
 Data Lezione: `INPUT[datePicker:Data]`
 Docente: `VIEW[{Docente}][link]`
 
 ---
 
 ![[HelloWorld.c]]
-
-
 
 # Intro C
 
@@ -38,13 +37,13 @@ do { } while (cond);
 for (ini; cond; step) { }
 
 break;    -> esce dal ciclo attuale
-continue; -> 
+continue; ->
 
 ---
 
 #include <string.h>
 
-struct nomeStruct 
+struct nomeStruct
 {
 	tipo1 nome1;
 	tipo2 nome2;
@@ -69,7 +68,7 @@ int main (int argc, char const **argv)
 {
 	scanf("%s", pers.nome);
 	scanf("%s", pers.cognome);
-	scanf("%d", &pers.age); 
+	scanf("%d", &pers.age);
 	// solo questa vuole reference perché gli altri son vettori
 
 	printf("%s", pers.nome);
@@ -82,16 +81,14 @@ int main (int argc, char const **argv)
 
 man -> manuale/documentazione di C
 
-
 # Simulazione autenticazione
 
 #esercizio da implementare coi file
 
 - in un file simulare un server
-	- servere deve capire se client vuole registrarsi o fare login
+  - servere deve capire se client vuole registrarsi o fare login
 - in un altro file simulare il client
-	- scrive dati 0 1 ogni riga, seguito da utente e password
-
+  - scrive dati 0 1 ogni riga, seguito da utente e password
 
 | client.c             | server.c                                         |
 | -------------------- | ------------------------------------------------ |
@@ -99,8 +96,8 @@ man -> manuale/documentazione di C
 |                      | interpreta file temporaneo                       |
 |                      | se registra, verifica che non sia già registrato |
 |                      | se accedi verifica che abbia account             |
- 
- ---
+
+---
 
 # Puntatori in C
 
@@ -125,9 +122,7 @@ ha fatto vedere esempi di blocchi codice, forse li recupero dopo e li scrivo meg
 - NEGAZIONE
 
 - SHIFT
-	- sinistro
-	- destro
+  - sinistro
+  - destro
 
 #esercizio fare un programma in C che applichi le operazioni qui sopra
-
-

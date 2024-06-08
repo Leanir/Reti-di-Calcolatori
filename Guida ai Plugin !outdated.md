@@ -1,6 +1,5 @@
 Qui sono elencati i plugin che sono stati utilizzati in questo vault, con le loro funzionalità principali e link alle loro documentazioni se presenti
 
-
 | Plugin                                                             | Utilizzo                                                                                                                |
 | :----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | <li>Folder Note Core<li>AidenLx's Folder Note                      | Permettono di fare click su una cartella per<br>visualizzare la nota omonima al suo interno                             |

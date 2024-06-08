@@ -7,25 +7,28 @@ Argomenti:
 
 | **Data** | `INPUT[datePicker:Data]` |
 | -------- | ------------------------ |
+
 Connessioni TCP
 
 Server
+
 1. socket()
 2. bind()
 3. listen()
-4. accept()  <->
-5. recv()  <-
-6. send()  ->
+4. accept() <->
+5. recv() <-
+6. send() ->
 7. close()
-Client
-1. socket()
-2. 
-3. 
-4. connect()  <->
-5. send()  -> 
-6. recv()  <-
-7. close
+   Client
+8. socket()
+9.
+10.
+11. connect() <->
+12. send() ->
+13. recv() <-
+14. close
 
 ## Indirizzamento con server multipli
 
-codice:: [[clientTCP.c]], [[serverTCP.c]]
+codice:: [[clientTCP.c]]
+codice:: [[serverTCP.c]]

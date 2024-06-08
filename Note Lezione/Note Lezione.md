@@ -38,7 +38,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: 1
-    width: 86
+    width: 110
     isSorted: true
     isSortedDesc: false
     config:
@@ -60,7 +60,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 118
+    width: 119
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -80,7 +80,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 499.79998779296875
+    width: 449.79998779296875
     options:
       - { label: "C", value: "C", color: "hsl(140, 95%, 90%)"}
       - { label: "File Binari", value: "File Binari", color: "hsl(84, 95%, 90%)"}
@@ -140,6 +140,8 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      content_alignment: text-align-left
+      content_vertical_alignment: align-middle
 config:
   remove_field_when_delete_column: true
   cell_size: compact

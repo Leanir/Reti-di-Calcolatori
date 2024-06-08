@@ -9,12 +9,15 @@ Argomenti:
   - IPv6
 ---
 
-| **Data**    | `INPUT[datePicker:Data]` |
-| ----------- | ------------------------ |
+| **Data** | `INPUT[datePicker:Data]` |
+| -------- | ------------------------ |
 
 cominciamo fast as heck con visual studio
 
-codice:: [[senderUDPfd.c]], [[recUDPfd.c]], [[sendUDPv6.c]], [[recUDPv6.c]]
+codice:: [[senderUDPfd.c]]
+codice:: [[recUDPfd.c]]
+codice:: [[sendUDPv6.c]]
+codice:: [[recUDPv6.c]]
 
 è possibile fare in modo che la receive from diventi non bloccante
 
@@ -33,5 +36,5 @@ unistd.h
 
 abbiamo accennato le fork per riuscire a fare più processi di comunicazione contemporaneamente
 
-
-codice:: [[fork.c]], [[chat1.c]]
+codice:: [[fork.c]]
+codice:: [[chat1.c]]

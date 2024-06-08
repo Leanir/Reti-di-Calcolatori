@@ -6,8 +6,8 @@ Argomenti:
   - script batch
 ---
 
-| **Data**    | `INPUT[datePicker:Data]` |
-| ----------- | ------------------------ |
+| **Data** | `INPUT[datePicker:Data]` |
+| -------- | ------------------------ |
 
 Evil Guarnera ha fatto uno script batch per fare l'esercizio 3B da solo
 
@@ -20,4 +20,3 @@ VBoxManage     ... <- su linux
 ```
 
 tutti i file batch sono stati scritti partendo dalla VM debbie2022.ova messa su teams
-

@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"a6692fd6106ac7da","type":"file","file":"Github Vault/Docenti/Luca Guarnera.md","x":280,"y":-420,"width":600,"height":580,"color":"5"},
+		{"id":"5594e38387a3ce05","x":630,"y":220,"width":250,"height":60,"color":"5","type":"text","text":"# Laboratorio"},
+		{"id":"b68fca564afb098d","x":330,"y":220,"width":250,"height":60,"color":"3","type":"text","text":"# Teoria"},
+		{"id":"6de950ff7fddeda1","x":-280,"y":-420,"width":560,"height":700,"color":"3","type":"file","file":"Github Vault/Docenti/Salvatore Antonio Riccobene.md"}
+	],
+	"edges":[
+		{"id":"65445be0acf5ce5d","fromNode":"a6692fd6106ac7da","fromSide":"bottom","toNode":"5594e38387a3ce05","toSide":"top","color":"5"},
+		{"id":"e22bcdffaf856df7","fromNode":"a6692fd6106ac7da","fromSide":"left","toNode":"b68fca564afb098d","toSide":"left","color":"3"}
+	]
+}
