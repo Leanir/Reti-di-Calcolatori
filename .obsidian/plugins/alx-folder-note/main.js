@@ -4271,7 +4271,7 @@ var getClickHandler = (plugin) => {
     if (!item || import_obsidian7.Platform.isMobile && !plugin.settings.mobileClickToOpen || // allow folder shift selection to work
     evt.shiftKey || // triggered only when click on title
     !(getFileItemInnerTitleEl(item) === evt.target || getFileItemInnerTitleEl(item).contains(evt.target)) || // ignore file being renamed
-    item.fileExplorer.fileBeingRenamed === item.file)
+    item.fileExplorer?.fileBeingRenamed === item.file)
       return false;
     if (evt.type === "auxclick" && evt.button !== 1)
       return false;
@@ -4432,11 +4432,11 @@ var FolderFocus = class extends FEHandler_Base {
     if (item && item.collapsed) {
       item.setCollapsed(false);
       this.plugin.app.nextFrame(() => {
-        this.fileExplorer.dom.infinityScroll.computeSync();
-        this.fileExplorer.dom.infinityScroll.scrollIntoView(item);
+        this.fileExplorer.tree.infinityScroll.computeSync();
+        this.fileExplorer.tree.infinityScroll.scrollIntoView(item);
       });
     }
-    this.fileExplorer.dom.navFileContainerEl.toggleClass(focusModeCls, !!item);
+    this.fileExplorer.navFileContainerEl.toggleClass(focusModeCls, !!item);
   }
   toggleFocusFolder(folder) {
     const folderItem = folder ? this.getAfItem(folder.path) : null;

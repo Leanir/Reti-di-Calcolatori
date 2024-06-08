@@ -10,7 +10,6 @@
   "obsidian-outliner",
   "obsidian-mind-map",
   "cm-editor-syntax-highlight-obsidian",
-  "homepage",
   "obsidian-pandoc",
   "obsidian-hover-editor",
   "cmenu-plugin",
@@ -25,5 +24,6 @@
   "waypoint",
   "alx-folder-note",
   "dbfolder",
-  "obsidian-meta-bind-plugin"
+  "obsidian-meta-bind-plugin",
+  "obsidian-annotator"
 ]
