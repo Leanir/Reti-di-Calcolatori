@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv)
 {
-    int sockfd, n;
+    int socketFileDescriptor, n;
     struct sockaddr_in6 remote_addr;
     socklen_t len = sizeof(struct sockaddr_in6);
     char
@@ -19,8 +19,8 @@ int main(int argc, char **argv)
         return -1;
     }
 
-    sockfd = socket(AF_INET6, SOCK_DGRAM, 0);
-    if (sockfd < 0)
+    socketFileDescriptor = socket(AF_INET6, SOCK_DGRAM, 0);
+    if (socketFileDescriptor < 0)
     {
         printf("Errore nell'apertura di socket\n");
         return -1;
@@ -34,11 +34,11 @@ int main(int argc, char **argv)
     while (fgets(sendline, 1000, stdin) != NULL)
     {
         sendto(
-            sockfd, sendline, strlen(sendline), 0,
+            socketFileDescriptor, sendline, strlen(sendline), 0,
             (struct sockaddr *)&remote_address, len);
 
         recvfrom(
-            sockfd, recline, 999, 0,
+            socketFileDescriptor, recline, 999, 0,
             (struct sockaddr *)&remote_address, &len);
 
         recline[n] = 0; // terminatore stringa, va bene anche al posto di \0
@@ -56,7 +56,7 @@ int main(int argc, char **argv)
     }
 
     printf("Fine comunicazione\n");
-    close(sockfd);
+    close(socketFileDescriptor);
 
     return 0;
 }

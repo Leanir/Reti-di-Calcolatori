@@ -14,7 +14,7 @@ Evil Guarnera ha fatto uno script batch per fare l'esercizio 3B da solo
 .bat per windows
 .sh per windows
 
-```
+```bash
 VBoxManage.exe ... <- su windows
 VBoxManage     ... <- su linux
 ```
