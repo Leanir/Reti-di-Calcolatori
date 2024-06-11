@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"32d8eaa0f071acde","type":"text","text":"# Indice\nParte 1 – Introduzione\nParte 2 – Livello Applicativo\nParte 3 – Livello di Trasporto\nParte 4 – Livello di Rete\nParte 5 – Data Link Layer\nParte 6 – Livello Fisico\nParte 7 – Sicurezza","x":-420,"y":-140,"width":260,"height":260},
-		{"id":"feac1636a79b6349","type":"file","file":"Github Vault/Mappe Mentali/Mappa Mentale !WIP.md","x":-120,"y":-220,"width":560,"height":340},
-		{"id":"c53136b554d1be58","type":"text","text":"# [[Guida alle Mappe Mentali !WIP]]","x":-420,"y":-220,"width":260,"height":60}
+		{"id":"feac1636a79b6349","type":"file","file":"Github Vault/Mappe Mentali/Mappa Mentale !WIP.md","x":-120,"y":-580,"width":1100,"height":700},
+		{"id":"5468f2cce4ef8110","type":"text","text":"# Indice\nParte 1 – Introduzione\nParte 2 – Livello Applicativo\nParte 3 – Livello di Trasporto\nParte 4 – Livello di Rete\nParte 5 – Data Link Layer\nParte 6 – Livello Fisico\nParte 7 – Sicurezza","x":-420,"y":-500,"width":260,"height":260},
+		{"id":"5632a5902e2b35bf","type":"text","text":"# [[Guida alle Mappe Mentali !WIP]]","x":-420,"y":-580,"width":260,"height":60}
 	],
 	"edges":[]
 }
