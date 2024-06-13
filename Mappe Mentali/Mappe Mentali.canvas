@@ -3,11 +3,13 @@
 		{"id":"feac1636a79b6349","type":"file","file":"Github Vault/Mappe Mentali/1. Introduzione.md","x":-120,"y":-580,"width":1000,"height":440},
 		{"id":"5468f2cce4ef8110","type":"text","text":"# Indice\nParte 1 – Introduzione\nParte 2 – Livello Applicativo\nParte 3 – Livello di Trasporto\nParte 4 – Livello di Rete\nParte 5 – Data Link Layer\nParte 6 – Livello Fisico\nParte 7 – Sicurezza","x":-420,"y":-500,"width":260,"height":260},
 		{"id":"5632a5902e2b35bf","type":"text","text":"# [[Guida alle Mappe Mentali !WIP]]","x":-420,"y":-580,"width":260,"height":60},
-		{"id":"6342a3950769239a","x":-120,"y":-60,"width":689,"height":474,"type":"file","file":"Github Vault/Mappe Mentali/2. Livello Applicativo.md"},
-		{"id":"188c80443bb3daf2","x":740,"y":-100,"width":1180,"height":474,"type":"file","file":"Github Vault/Mappe Mentali/3. Livello di Trasporto.md"}
+		{"id":"6342a3950769239a","type":"file","file":"Github Vault/Mappe Mentali/2. Livello Applicativo.md","x":931,"y":-550,"width":689,"height":474},
+		{"id":"188c80443bb3daf2","type":"file","file":"Github Vault/Mappe Mentali/3. Livello di Trasporto.md","x":-740,"y":20,"width":1620,"height":640},
+		{"id":"599b30108bf53c46","x":1020,"y":20,"width":1540,"height":720,"type":"file","file":"Github Vault/Mappe Mentali/4. Livello di Rete.md"}
 	],
 	"edges":[
-		{"id":"e1cd07ca273ad538","fromNode":"feac1636a79b6349","fromSide":"bottom","toNode":"6342a3950769239a","toSide":"top"},
-		{"id":"a4978e93fc17a450","fromNode":"6342a3950769239a","fromSide":"right","toNode":"188c80443bb3daf2","toSide":"left"}
+		{"id":"c7a00c3f2d6a19fd","fromNode":"feac1636a79b6349","fromSide":"right","toNode":"6342a3950769239a","toSide":"left"},
+		{"id":"01859f0e0a31eab3","fromNode":"6342a3950769239a","fromSide":"bottom","toNode":"188c80443bb3daf2","toSide":"top"},
+		{"id":"94ab4f93e3bae8ff","fromNode":"188c80443bb3daf2","fromSide":"right","toNode":"599b30108bf53c46","toSide":"left"}
 	]
 }
