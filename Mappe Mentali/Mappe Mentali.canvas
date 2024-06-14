@@ -3,13 +3,17 @@
 		{"id":"feac1636a79b6349","type":"file","file":"Github Vault/Mappe Mentali/1. Introduzione.md","x":-120,"y":-580,"width":1000,"height":440},
 		{"id":"5468f2cce4ef8110","type":"text","text":"# Indice\nParte 1 – Introduzione\nParte 2 – Livello Applicativo\nParte 3 – Livello di Trasporto\nParte 4 – Livello di Rete\nParte 5 – Data Link Layer\nParte 6 – Livello Fisico\nParte 7 – Sicurezza","x":-420,"y":-500,"width":260,"height":260},
 		{"id":"5632a5902e2b35bf","type":"text","text":"# [[Guida alle Mappe Mentali !WIP]]","x":-420,"y":-580,"width":260,"height":60},
-		{"id":"6342a3950769239a","type":"file","file":"Github Vault/Mappe Mentali/2. Livello Applicativo.md","x":931,"y":-550,"width":689,"height":474},
-		{"id":"188c80443bb3daf2","type":"file","file":"Github Vault/Mappe Mentali/3. Livello di Trasporto.md","x":-740,"y":20,"width":1620,"height":640},
-		{"id":"599b30108bf53c46","x":1020,"y":20,"width":1540,"height":720,"type":"file","file":"Github Vault/Mappe Mentali/4. Livello di Rete.md"}
+		{"id":"6342a3950769239a","type":"file","file":"Github Vault/Mappe Mentali/2. Livello Applicativo.md","x":1020,"y":-520,"width":689,"height":474},
+		{"id":"599b30108bf53c46","type":"file","file":"Github Vault/Mappe Mentali/4. Livello di Rete.md","x":1020,"y":80,"width":1540,"height":720},
+		{"id":"85cecfdc7edea263","x":-740,"y":1140,"width":1560,"height":800,"type":"file","file":"Github Vault/Mappe Mentali/6. Livello Fisico.md"},
+		{"id":"dcc76b3c6a763221","x":989,"y":880,"width":1440,"height":1060,"type":"file","file":"Github Vault/Mappe Mentali/5. Data Link Layer.md"},
+		{"id":"188c80443bb3daf2","type":"file","file":"Github Vault/Mappe Mentali/3. Livello di Trasporto.md","x":-740,"y":80,"width":1620,"height":640}
 	],
 	"edges":[
 		{"id":"c7a00c3f2d6a19fd","fromNode":"feac1636a79b6349","fromSide":"right","toNode":"6342a3950769239a","toSide":"left"},
 		{"id":"01859f0e0a31eab3","fromNode":"6342a3950769239a","fromSide":"bottom","toNode":"188c80443bb3daf2","toSide":"top"},
-		{"id":"94ab4f93e3bae8ff","fromNode":"188c80443bb3daf2","fromSide":"right","toNode":"599b30108bf53c46","toSide":"left"}
+		{"id":"94ab4f93e3bae8ff","fromNode":"188c80443bb3daf2","fromSide":"right","toNode":"599b30108bf53c46","toSide":"left"},
+		{"id":"8b2f04ec5e667b69","fromNode":"599b30108bf53c46","fromSide":"bottom","toNode":"dcc76b3c6a763221","toSide":"top"},
+		{"id":"a813ab5fe64e0a6c","fromNode":"dcc76b3c6a763221","fromSide":"left","toNode":"85cecfdc7edea263","toSide":"right"}
 	]
 }
