@@ -1,6 +1,6 @@
 ---
 Data: 2024-03-08
-Docente: "[[Docenti#^guarnera-sheet|Luca Guarnera]]"
+Docente: "[[Luca Guarnera]]"
 Argomenti:
   - C
 ---

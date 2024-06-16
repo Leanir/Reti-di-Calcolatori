@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"3bc9b284176fe100","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Modelli di Rete/Modelli di Rete.md","x":620,"y":-271,"width":480,"height":324},
+		{"id":"86f059b652a8768d","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Modelli di Rete/Modello OSI.md","x":220,"y":160,"width":640,"height":546},
+		{"id":"c7f54bea99b6da1a","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Comunicazione.md","x":-880,"y":-533,"width":460,"height":613},
+		{"id":"511258e02f32e96f","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Primitive di Servizio.md","x":-880,"y":-720,"width":460,"height":187},
+		{"id":"25ea2944dd32704d","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Rete.md","x":-420,"y":-720,"width":320,"height":971},
+		{"id":"003250a252b5f600","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Protocollo.md","x":1220,"y":-438,"width":540,"height":491},
+		{"id":"37cbd7d2febadf6a","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Layers.md","x":40,"y":-186,"width":440,"height":186},
+		{"id":"145950f1fe6d1c69","type":"file","file":"Github Vault/Testuali a Tenuta Stagna/Definizioni/Modelli di Rete/Standard TCP IP.md","x":1000,"y":160,"width":560,"height":1960}
+	],
+	"edges":[
+		{"id":"a83e3cbd70dd7add","fromNode":"3bc9b284176fe100","fromSide":"bottom","toNode":"86f059b652a8768d","toSide":"top"},
+		{"id":"fa385a3a8e2ec830","fromNode":"86f059b652a8768d","fromSide":"right","toNode":"145950f1fe6d1c69","toSide":"left"},
+		{"id":"08185ff4eaaab26c","fromNode":"3bc9b284176fe100","fromSide":"bottom","toNode":"145950f1fe6d1c69","toSide":"top"},
+		{"id":"7b38a91515523197","fromNode":"37cbd7d2febadf6a","fromSide":"right","toNode":"3bc9b284176fe100","toSide":"left"},
+		{"id":"a311ee285fcc9eb9","fromNode":"25ea2944dd32704d","fromSide":"right","toNode":"37cbd7d2febadf6a","toSide":"left"},
+		{"id":"b9e616a9205c62a7","fromNode":"3bc9b284176fe100","fromSide":"right","toNode":"003250a252b5f600","toSide":"left"}
+	]
+}
