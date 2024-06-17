@@ -114,12 +114,25 @@ prevedeva una chiusura della connessione diretta ogni volta che veniva mandato u
 
 ### v1.1
 
-permette di specificare da parte del client, di tenere aperta la connessione finché il client capisce di aver caricato interamente la pagina web, e solo allora la connessione viene chiusa
+permette di specificare da parte del client, di tenere aperta la connessione finché il client capisce di aver caricato interamente la pagina web, e solo allora la connessione viene chiusa (connessione persistente)
 
 ### v2.0
 
 uses header compression, permits "push" dispatch and parallel download (RFC 7540 - 96 pagine)
 
+manda più risposte per una sola richieste (a cascata)
+
+un client può scegliere di assegnare una priorità alle richieste
+
+Implementa Scheduling Round Robin, si caricano prima gli oggetti più piccoli e poi quelli più grandi
+
+svantaggio è che apre un sacco di connessioni in contemporanea.
+
 ### v3.0
 
-Vietas connessioni TCP multiple verso lo stesso server
+Vieta connessioni TCP multiple verso lo stesso server
+
+Utilizza anche UDP
+
+> [!quote] Abstract dell'RFC 9114 
+> The QUIC transport protocol has several features that are desirable in a transport for HTTP, such as stream multiplexing, per-stream flow control, and low-latency connection establishment. This document describes a mapping of HTTP semantics over QUIC. This document also identifies HTTP/2 features that are subsumed by QUIC and describes how HTTP/2 extensions can be ported to HTTP/3.[¶](https://datatracker.ietf.org/doc/html/rfc9114#section-abstract-1)

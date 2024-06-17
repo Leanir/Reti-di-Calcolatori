@@ -8,7 +8,7 @@ tags:
 ---
 # File Transfer Protocol
 
-FTP (File Transfer Protocol) è uno dei protocolli più vecchi progettati per Internet, con lo scopo principale di trasferire copie di un file tra due macchine. Questo protocollo è bidirezionale, permettendo all’utente di caricare file sul server e di scaricare file dal server al filesystem locale. Inoltre è stateful con sessione di lavoro unica. 
+FTP (File Transfer Protocol) è uno dei protocolli più vecchi progettati per Internet, con lo scopo principale di *trasferire copie* di un file tra due macchine. Questo protocollo è bidirezionale, permettendo all’utente di caricare file sul server e di scaricare file dal server al filesystem locale. Inoltre è stateful con sessione di lavoro unica. 
 
 *Fun fact: il supporto a FTP è stato dismesso da Google Chrome e Firefox nel 2021*
 

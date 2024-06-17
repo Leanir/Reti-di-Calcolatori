@@ -5,11 +5,11 @@
 
 ### [[File Transfer Protocol]]
 
-### Telnet
+### [[Telnet]]
 
 Telnet è un modello, la cui pila protocollare è costituita da 4 livelli. In cima abbiamo il Livello Applicativo, subito sotto il Livello Di Trasporto, a seguire il livello Internet e il Network Access. Al livello di trasporto si utilizza TCP. Telnet sta per Teletype Network. C’è un client al livello applicativo che si collega alla porta 23 e suddetto client ha la possibilità di collegarsi a qualunque porta del sistema remoto. In Telnet c’è un processo client che controlla il terminale del client, chi manda le informazioni è invece il vero e proprio Telnet Client, che utilizzando TCP comunica con il processo Server di Telnet, il quale, volendo, può comunicare con un’applicazione presente nel server.
 
-### HTTP
+### [[HTTP]]
 
 Http è un protocollo che serve a trasferire file da una macchina all’altra sotto richiesta. Il client ha un suo applicativo, cioè il browser, che spedisce una richiesta al server web, specificando un indirizzo particolare determinato : URI (Uniform Resource Identifier). In origine il server andava a cercare il file da restituire in ritorno al processo browser. Il sistema è stato potenziato con il concetto di Hyperlink in maniera tale che, se al server veniva richiesta un’informazione aggiuntiva, o il server stesso, o comunque il browser, potevano ricevere informazioni anche da altre macchine. HTTP usa protocollo TCP. Il client invia la richiesta dei file che vuole ricevere, questa richiesta arriva al server che risponde con la lista completa dei file. Tipicamente a richiesta soddisfatta la connessione viene chiusa. La prima versione del protocollo (1.0), prevedeva una chiusura della connessione diretta ogni volta che veniva mandato un singolo file; nel caso quindi della richiesta di più file, veniva utilizzata una connessione per ogni file. La variante successiva (1.1), permette di specificare da parte del client, di tenere aperta la connessione finché il client capisce di aver caricato interamente la pagina web, e solo allora la connessione viene chiusa. 
 
