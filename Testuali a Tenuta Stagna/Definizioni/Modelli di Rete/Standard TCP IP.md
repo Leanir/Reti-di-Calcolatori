@@ -28,10 +28,12 @@ Questo livello è analogo al livello di trasporto del modello OSI. È responsabi
 
 ## Livello di Trasporto
 
-I protocolli del livello di trasporto TCP/IP si scambiano i riconoscimenti di ricezione dei dati e ritrasmettono i pacchetti mancanti per garantire che i pacchetti arrivino in ordine e senza errori. La comunicazione end-to-end viene definita come tale. Il protocollo TCP (Transmission Control Protocol) e il protocollo UDP (User Datagram Protocol) sono protocolli a livello di trasporto all'interno di questo livello.
+I protocolli del livello di trasporto TCP/IP si scambiano i riconoscimenti di ricezione dei dati e ritrasmettono i pacchetti mancanti per garantire che i pacchetti arrivino in ordine e senza errori. La comunicazione end-to-end viene definita come tale. 
 
-- TCP
-- UDP
+all'interno di questo livello i protocolli TCP e il protocollo UDP (User Datagram Protocol) sono protocolli a livello di trasporto 
+
+- [[TCP]]
+- [[UDP]]
 
 ## Livello di Rete
 

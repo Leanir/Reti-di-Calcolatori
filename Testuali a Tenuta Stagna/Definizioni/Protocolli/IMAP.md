@@ -1,0 +1,4 @@
+---
+tags:
+  - paradigma/client-server
+---

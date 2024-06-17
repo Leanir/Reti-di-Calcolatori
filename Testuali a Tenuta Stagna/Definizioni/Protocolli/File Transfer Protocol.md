@@ -4,6 +4,7 @@ aliases:
 tags:
   - protocollo/applicazione
   - protocollo/stateful
+  - paradigma/client-server
 ---
 # File Transfer Protocol
 
